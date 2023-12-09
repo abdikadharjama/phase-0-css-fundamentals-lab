@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto; /* Center the text and add vertical space */
+}
+
+figcaption {
+  font-size: 14px; /* Adjust font size for the image caption */
+}
+
+#details {
+  overflow: hidden; /* Clear the float to contain child elements */
+}
+
+#details div {
+  float: left; /* Float each div to the left */
+  width: 25%; /* Occupy 25% of the width */
+  text-align: center; /* Center the text */
+  background-color: lightgray; /* Background color */
+  margin: 10px; /* Add margin for spacing */
+}
+
